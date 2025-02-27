@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with Meyawo landing page.">
+    <meta name="author" content="Devcrud">
+    <title>Meyawo Landing page | Free Bootstrap 4.3.x landing page</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- Bootstrap + Meyawo main styles -->
+    <link rel="stylesheet" href="assets/css/meyawo.css">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+
+    <!-- Page Navbar -->
+    <nav class="custom-navbar" data-spy="affix" data-offset-top="20">
+        <div class="container">
+            <a class="logo" href="#">Health</a>
+            <ul class="nav">
+                <li class="item">
+                    <a class="link" href="#home">Acceuil</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#about">A propos</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#testmonial">Parcours</a>
+                </li>
+                
+                <li class="item">
+                    <a class="link" href="#contact">Contact</a>
+                </li>
+                
+            </ul>
+            <a href="javascript:void(0)" id="nav-toggle" class="hamburger hamburger--elastic">
+                <div class="hamburger-box">
+                    <div class="hamburger-inner"></div>
+                </div>
+            </a>
+        </div>
+    </nav><!-- End of Page Navbar -->
+
+    <!-- page header -->
+    <header id="home" class="header">
+        <div class="overlay"></div>
+        <div class="header-content container">
+            <h1 class="header-title">
+                <span class="up">Salut!</span>
+                <span class="down">Je suis TCHOBO Bruce</span>
+            </h1>
+            <p class="header-subtitle">INFIRMIER</p>
+
+            
+        </div>
+    </header><!-- end of page header -->
+
+    <!-- about section -->
+    <section class="section pt-0" id="about">
+        <!-- container -->
+        <div class="container text-center">
+            <!-- about wrapper -->
+            <div class="about">
+                <div class="about-img-holder">
+                    <img src="assets/imgs/man2.png" class="about-img"
+                        alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                </div>
+                <div class="about-caption">
+                    <p class="section-subtitle">Qui suis je ?</p>
+                    <h2 class="section-title mb-3">A propos</h2>
+                    <p>
+                        Infirmier, j’assure avec dévouement et abnégation mes tâches quotidiennes à savoir les soins infirmiers. Je suis doté
+d’un grand sens de l’organisation et d’une solide connaissance dans les soins infirmiers. Mon expérience m’a aussi
+appris à m’adapter sans cesse à tous les environnements de travail ainsi qu’à apprendre l’utilisation des nouveaux
+outils et procédés dans le domaine. Je suis actuellement à la recherche d’une nouvelle expérience professionnelle
+infirmière afin de mettre en pratique mes connaissances et d’en acquérir de nouvelles. Je reste à votre disposition
+pour un éventuel entretien.
+                    </p>
+                    <button id="download-cv" class="btn-rounded btn btn-outline-primary mt-4">Download CV</button>
+
+                    <script>
+                        document.getElementById('download-cv').addEventListener('click', function() {
+                            var link = document.createElement('a');
+                            link.href = 'CV1.pdf'; // Assure-toi que le fichier est dans le même dossier que ton fichier HTML
+                            link.download = 'CV1.pdf'; // Nom du fichier téléchargé
+                            document.body.appendChild(link);
+                            link.click();
+                            document.body.removeChild(link);
+                        });
+                    </script>
+                    
+                </div>
+            </div><!-- end of about wrapper -->
+        </div><!-- end of container -->
+    </section> <!-- end of about section -->
+
+    <!-- service section -->
+    <section class="section" id="service">
+        <div class="container text-center">
+            <p class="section-subtitle">Quels sont tes talents uniques ?</p>
+            <h6 class="section-title mb-6">Compétence</h6>
+            <!-- row -->
+            <div class="row">
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/imgs/pencil-case.svg"
+                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                                class="icon">
+                            <h6 class="title">Autodidacte</h6>
+                            <p class="subtitle">J'ai la capacité d'apprendre de manière autonome et d'acquérir de
+                                 nouvelles compétences de manière efficace..</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/imgs/confiance.png"
+                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                                class="icon">
+                            <h6 class="title">Assurance</h6>
+                            <p class="subtitle">"Mon assurance me permet de prendre des décisions avec confiance et de gérer les situations
+                                 avec calme et détermination..</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/imgs/motivation.png"
+                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                                class="icon">
+                            <h6 class="title">Adaptation</h6>
+                            <p class="subtitle">Mon adaptabilité me permet de m'ajuster rapidement aux changements et
+                                 de trouver des solutions innovantes.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/imgs/analytics.svg"
+                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                                class="icon">
+                            <h6 class="title">Analytique</h6>
+                            <p class="subtitle">Je possède une capacité analytique qui me permet de
+                                 décortiquer des données complexes pour en tirer des conclusions</p>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- end of row -->
+        </div>
+    </section><!-- end of service section -->
+
+    <!-- portfolio section -->
+    <section class="section" id="portfolio">
+        <div class="container text-center">
+            <p class="section-subtitle">Ce que j'ai fait ?</p>
+            <h6 class="section-title mb-6">Portfolio</h6>
+            <!-- row -->
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="#" class="portfolio-card">
+                        <img src="assets/imgs/consulter.jpeg" class="portfolio-card-img"
+                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>Consulter</h5>
+                                    <p class="font-weight-normal">Je consulte les patients pour des solutions de santé personnalisées.</p>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="#" class="portfolio-card">
+                        <img class="portfolio-card-img" src="assets/imgs/prescrire.jpg" class="img-responsive rounded"
+                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>Prescription</h5>
+                                    <p class="font-weight-normal">Je prescris des traitements adaptés aux besoins de chaque patient.</p>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="#" class="portfolio-card">
+                        <img class="portfolio-card-img" src="assets/imgs/suivi.jpg" class="img-responsive rounded"
+                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>Suivie</h5>
+                                    <p class="font-weight-normal">Je suis le suivi des traitements pour assurer l'amélioration de la santé des patients.</p>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+            </div><!-- end of row -->
+        </div><!-- end of container -->
+    </section> <!-- end of portfolio section -->
+
+
+    <!-- testimonial section -->
+    <section class="section" id="testmonial">
+        <div class="container section-title" data-aos="fade-up">
+            <h2>Resume</h2>
+            <p>Assistance médicale complète. Satisfaction des besoins de santé grâce à des traitements adaptés. Écoute et suivi personnalisés pour chaque patient. Expertise et dévouement dans chaque consultation.</p>
+          </div><!-- End Section Title -->
+    
+          <div class="container">
+    
+            <div class="row">
+    
+              <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                <h3 class="resume-title">Sumary</h3>
+    
+                <div class="resume-item pb-0">
+                  <h4>TCHOBO Bruce</h4>
+                  <p><em>Professionnel de la médecine avec 20 ans d'expérience, innovant et rigoureux, spécialisé dans la prestation de soins personnalisés et centrés sur le patient, depuis le diagnostic initial jusqu'au traitement complet et au suivi.</em></p>
+                  <ul>
+                    <li>Abomey Calavi Zoundja</li>
+                    <li>(+229) 01 971 259 89</li>
+                    <li> <a href="mailto:archangesbenis1@gmail.com">archangesbenis1@gmail.com</a> </li>
+                  </ul>
+                </div><!-- Edn Resume Item -->
+    
+                <h3 class="resume-title">Education</h3>
+                <div class="resume-item">
+                  <h4>LICENCE PROFESSIONNELLE / SANTÉ COMMUNAUTAIRE</h4>
+                  <h5>2023</h5>
+                  <p><em>Ouagadougou, Burkina Faso</em></p>
+                  <p>FRISSE</p>
+                </div><!-- Edn Resume Item -->
+    
+                <div class="resume-item">
+                  <h4>DIPLÔME D’ÉTAT D’INFIRMIER</h4>
+                  <h5>2020</h5>
+                  <p><em>Ouagadougou, Burkina Faso</em></p>
+                  <p>ÉCOLE PRIVÉE DE SANTÉ SAINTE JULIE DE OUAGADOUGOU</p>
+                </div><!-- Edn Resume Item -->
+
+                <div class="resume-item">
+                    <h4>DIPLÔME D’INFIRMIER BREVETÉ</h4>
+                    <h5>2005</h5>
+                    <p><em>Parakou, Bénin</em></p>
+                    <p>ÉCOLE NATIONALE DES INFIRMIERS ET INFIRMIÈRES DE PARAKOU</p>
+                  </div><!-- Edn Resume Item -->
+    
+              </div>
+    
+              <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                <h3 class="resume-title"> Experience professionnelle</h3>
+                <div class="resume-item">
+                  <h4>INFIRMIER / RESPONSABLE DES SOINS INFIRMIERS</h4>
+                  <h5>2005 à aujourd’hui</h5>
+                  <p><em>CABINET PRIVÉ DE SOINS INFIRMIERS, Cotonou, Bénin </em></p>
+                  <ul>
+                    <li>Évaluer les patients afin d'identifier les soins infirmiers appropriés;</li>
+                    <li>Administrer les médicaments et les traitements prescrits par un médecin ou
+                        selon les politiques et les protocoles en vigueur; </li>
+                    <li>Assister les médecins dans les interventions chirurgicales et les autres
+                        procédures médicales;</li>
+                    <li>Informer et conseiller, au besoin, les patients et leurs familles sur certains
+                        aspects de la santé, en collaboration avec d'autres travailleurs dans le domaine
+                        de la santé</li>
+                  </ul>
+                </div><!-- Edn Resume Item -->
+    
+                <div class="resume-item">
+                  <h4>INFIRMIER</h4>
+                  <h5>2019 à aujourdh’hui</h5>
+                  <p><em>CABINET MÉDICAL FIFAMÊ, Cotonou, Bénin</em></p>
+                  <ul>
+                    <li>Évaluer les risques dans une situation d'urgence et déterminer les mesures
+                        à mettre en place pour y répondre;</li>
+                    <li>Élaborer et appliquer un projet de soin;</li>
+                    <li>Éduquer et informer les proches du patient;</li>
+                    <li>Veiller au bien-être et à la sécurité du patient;</li>
+                  </ul>
+                </div><!-- Edn Resume Item -->
+
+                <div class="resume-item">
+                    <h4>INFIRMIER / STAGE D’ÉTUDES</h4>
+                    <h5>2005</h5>
+                    <p><em>ÉCOLE NATIONALE DES INFIRMIERS ET INFIRMIÈRES DE
+                        PARAKOU, Cotonou, Bénin</em></p>
+                    <ul>
+                      <li>Prodiguer les soins d’hygiènes et de conforts;</li>
+                      <li>Sensibiliser les patients;</li>
+                      <li>Gérer les dossiers des patients;</li>
+                      <li>Élaborer les rapports mensuels et transmettre les données.</li>
+                    </ul>
+                  </div><!-- Edn Resume Item -->
+    
+              </div>
+    
+            </div>
+    
+          </div>
+    </section> <!-- end of testimonial section -->
+
+   
+
+    <!-- contact section -->
+    <section class="section" id="contact">
+        <div class="container text-center">
+            <p class="section-subtitle">Veux tu me contacter?</p>
+            <h6 class="section-title mb-5">Contacte Moi</h6>
+            <!-- contact form -->
+            
+            <form id="contact-form" action="https://formsubmit.co/archangesbenis1@gmail.com" method="POST" class="contact-form col-md-10 col-lg-8 m-auto">
+                <div class="form-row">
+                    <div class="form-group col-sm-6">
+                        <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <input type="email" name="email" class="form-control" placeholder="Enter Email" required>
+                    </div>
+                    <div class="form-group col-sm-12">
+                        <textarea name="message" rows="6" class="form-control" placeholder="Write Something" required></textarea>
+                    </div>
+            
+                    <!-- Champs cachés pour configuration FormSubmit -->
+                    <input type="hidden" name="_captcha" value="false"> <!-- Désactive le Captcha -->
+                    <input type="hidden" name="_template" value="table"> <!-- Format du mail -->
+            
+                    <div class="form-group col-sm-12 mt-3">
+                        <input type="submit" value="Envoyer" class="btn btn-outline-primary rounded">
+                    </div>
+                </div>
+            </form>
+            
+            <!-- Message de confirmation stylisé -->
+            <div id="message-container" style="display: none; text-align: center; margin-top: 20px;">
+                <div id="success-message" style="display: none; padding: 15px; border-radius: 5px; background: #d4edda; color: #155724; border: 1px solid #c3e6cb;">
+                    ✅ Votre message a été envoyé avec succès !
+                </div>
+                <div id="error-message" style="display: none; padding: 15px; border-radius: 5px; background: #f8d7da; color: #721c24; border: 1px solid #f5c6cb;">
+                    ❌ Une erreur est survenue. Veuillez réessayer.
+                </div>
+            </div>
+            
+            <script>
+                document.getElementById('contact-form').addEventListener('submit', function(event) {
+                    event.preventDefault(); // Empêche le rechargement de la page
+            
+                    var form = event.target;
+                    var formData = new FormData(form);
+            
+                    fetch(form.action, {
+                        method: "POST",
+                        body: formData,
+                        headers: { "Accept": "application/json" }
+                    })
+                    .then(response => {
+                        document.getElementById('message-container').style.display = 'block';
+            
+                        if (response.ok) {
+                            document.getElementById('success-message').style.display = 'block';
+                            document.getElementById('error-message').style.display = 'none';
+                            form.reset(); // Réinitialiser le formulaire après envoi
+                        } else {
+                            document.getElementById('success-message').style.display = 'none';
+                            document.getElementById('error-message').style.display = 'block';
+                        }
+                    })
+                    .catch(error => {
+                        document.getElementById('message-container').style.display = 'block';
+                        document.getElementById('success-message').style.display = 'none';
+                        document.getElementById('error-message').style.display = 'block';
+                    });
+                });
+            </script>
+            
+            
+            <!-- end of contact form -->
+        </div><!-- end of container -->
+    </section><!-- end of contact section -->
+
+    <!-- footer -->
+    <div class="container">
+        <footer class="footer">
+            <p class="mb-0">Copyright
+                <script>document.write(new Date().getFullYear())</script> &copy; <a
+                    href="http://www.devcrud.com">DevCRUD</a> Distribution 
+            </p>
+            <div class="social-links text-right m-auto ml-sm-auto">
+                <a href="javascript:void(0)" class="link"><i class="ti-facebook"></i></a>
+                
+                <a href="javascript:void(0)" class="link"><i class="ti-google"></i></a>
+
+            </div>
+        </footer>
+    </div> <!-- end of page footer -->
+
+    <!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap 3 affix -->
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Meyawo js -->
+    <script src="assets/js/meyawo.js"></script>
+
+</body>
+
+</html>
